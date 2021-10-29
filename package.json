@@ -1,6 +1,6 @@
 {
     "name": "@glamseam/stylelint-config",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Stylelint Config.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,15 +18,18 @@
         "registry": "https://npm.pkg.github.com/glamseam"
     },
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "prepare": "npm run build"
     },
     "peerDependencies": {
         "stylelint": "^14.0.0"
     },
     "devDependencies": {
         "stylelint": "^14.0.0",
-        "stylelint-order": "^5.0.0",
-        "stylelint-scss": "^4.0.0",
         "typescript": "^4.4.4"
+    },
+    "dependencies": {
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.0.0"
     }
 }
