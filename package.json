@@ -1,0 +1,32 @@
+{
+    "name": "@glamseam/stylelint-config",
+    "version": "0.1.0",
+    "description": "Stylelint Config.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "author": "__d",
+    "license": "MIT",
+    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/glamseam/stylelint-config"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/glamseam"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "peerDependencies": {
+        "stylelint": "^14.0.0"
+    },
+    "devDependencies": {
+        "stylelint": "^14.0.0",
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.0.0",
+        "typescript": "^4.4.4"
+    }
+}
