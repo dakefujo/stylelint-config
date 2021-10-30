@@ -1,9 +1,7 @@
-const index = {
+export = {
     extends: [
         './css',
         './scss',
         './order'
     ]
 }
-
-export = index

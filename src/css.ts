@@ -1,4 +1,4 @@
-const css = {
+export = {
     rules: {
         'at-rule-no-unknown': null,
         'no-duplicate-selectors': [
@@ -96,5 +96,3 @@ const css = {
         'no-empty-first-line': true
     }
 }
-
-export = css

@@ -1,4 +1,4 @@
-const order = {
+export = {
     plugins: [
         'stylelint-order'
     ],
@@ -261,5 +261,3 @@ const order = {
         ]
     }
 }
-
-export = order

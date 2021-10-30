@@ -1,4 +1,4 @@
-const scss = {
+export = {
     plugins: [
         'stylelint-scss'
     ],
@@ -10,5 +10,3 @@ const scss = {
         'scss/comment-no-empty': null
     }
 }
-
-export = scss
