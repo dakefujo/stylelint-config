@@ -61,6 +61,7 @@ export = {
                         'align-items',
                         'align-self',
                         'justify-content',
+                        'place-content',
                         'order',
                         'width',
                         'min-width',
