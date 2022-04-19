@@ -6,6 +6,14 @@ export = {
         'order/properties-order': [
             [
                 {
+                    groupName: 'container',
+                    properties: [
+                        'container',
+                        'container-type',
+                        'container-name'
+                    ]
+                },
+                {
                     groupName: 'heading',
                     properties: [
                         'content',
@@ -84,6 +92,9 @@ export = {
                         'overflow',
                         'overflow-x',
                         'overflow-y',
+                        'overscroll-behavior',
+                        'overscroll-behavior-x',
+                        'overscroll-behavior-y',
                         'clip',
                         'zoom',
                         'columns',
@@ -183,9 +194,10 @@ export = {
                         'background-repeat',
                         'background-position',
                         'background-size',
-                        'backdrop-filter',
                         'box-shadow',
-                        'fill'
+                        'fill',
+                        'filter',
+                        'backdrop-filter'
                     ]
                 },
                 {
