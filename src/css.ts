@@ -1,6 +1,7 @@
 export = {
     rules: {
         'at-rule-no-unknown': null,
+        'function-no-unknown': null,
         'no-duplicate-selectors': [
             true,
             { 'severity': 'warning' }
