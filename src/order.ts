@@ -99,6 +99,8 @@ export = {
                         'overscroll-behavior',
                         'overscroll-behavior-x',
                         'overscroll-behavior-y',
+                        'object-fit',
+                        'object-position',
                         'clip',
                         'zoom',
                         'columns',
