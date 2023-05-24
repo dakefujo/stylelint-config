@@ -1,6 +1,6 @@
 {
     "name": "@d-gs/stylelint-config",
-    "version": "0.9.1",
+    "version": "0.10.0",
     "description": "Stylelint Config.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -27,7 +27,7 @@
         "pub": "pnpm run build && npm publish --access=public"
     },
     "peerDependencies": {
-        "stylelint": "^14.0.0"
+        "stylelint": "^15.0.0"
     },
     "devDependencies": {
         "stylelint": "^15.6.2",
