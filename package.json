@@ -1,6 +1,6 @@
 {
     "name": "@d-gs/stylelint-config",
-    "version": "0.12.0",
+    "version": "0.13.0",
     "description": "Stylelint Config.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
