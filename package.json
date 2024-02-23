@@ -1,6 +1,6 @@
 {
     "name": "@d-gs/stylelint-config",
-    "version": "0.14.0",
+    "version": "0.15.0",
     "description": "Stylelint Config.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -34,6 +34,7 @@
         "typescript": "^5.3.3"
     },
     "dependencies": {
+        "stylelint-config-recommended-scss": "^14.0.0",
         "stylelint-order": "^6.0.4",
         "stylelint-scss": "^6.1.0"
     }
