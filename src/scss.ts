@@ -2,6 +2,7 @@ export = {
     plugins: [
         'stylelint-scss'
     ],
+    extends: ['stylelint-config-recommended-scss'],
     rules: {
         'scss/at-extend-no-missing-placeholder': [
             true,
