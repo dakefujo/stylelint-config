@@ -1,6 +1,6 @@
 {
     "name": "@d-gs/stylelint-config",
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "Stylelint Config.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -24,17 +24,17 @@
     },
     "scripts": {
         "build": "tsc",
-        "pub": "pnpm run build && npm publish --access=public"
+        "pub": "pnpm build && npm publish --access=public"
     },
     "peerDependencies": {
-        "stylelint": "^15.0.0"
+        "stylelint": "^16.0.0"
     },
     "devDependencies": {
-        "stylelint": "^15.10.3",
-        "typescript": "^5.2.2"
+        "stylelint": "^16.2.1",
+        "typescript": "^5.3.3"
     },
     "dependencies": {
-        "stylelint-order": "^6.0.3",
-        "stylelint-scss": "^5.1.0"
+        "stylelint-order": "^6.0.4",
+        "stylelint-scss": "^6.1.0"
     }
 }
