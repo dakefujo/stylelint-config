@@ -1,7 +1,3 @@
-export = {
-    extends: [
-        './css',
-        './scss',
-        './order'
-    ]
+export default {
+    extends: ['./css', './scss', './order']
 }

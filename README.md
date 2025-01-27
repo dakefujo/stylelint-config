@@ -1,3 +1,1 @@
 # stylelint-config
-
-WIP.

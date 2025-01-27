@@ -1,13 +1,20 @@
 {
-    "name": "@d-gs/stylelint-config",
-    "version": "0.15.0",
-    "description": "Stylelint Config.",
+    "name": "@dakefujo/stylelint-config",
+    "version": "1.0.0",
+    "description": "Stylelint config.",
     "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "default": "./dist/index.js"
+        },
+        "./vue-nuxt": {
+            "default": "./dist/vue-nuxt/index.js"
+        }
+    },
     "files": [
         "dist"
     ],
-    "author": "__d",
+    "author": "Dake Fujo",
     "license": "MIT",
     "keywords": [
         "stylelint",
@@ -17,25 +24,34 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/glamseam/stylelint-config.git"
+        "url": "git+https://github.com/dakefujo/stylelint-config.git"
     },
-    "bugs": {
-        "url": "https://github.com/glamseam/stylelint-config/issues"
-    },
+    "packageManager": "pnpm@9.15.4",
     "scripts": {
-        "build": "tsc",
-        "pub": "pnpm build && npm publish --access=public"
+        "build": "unbuild",
+        "pub": "pnpm build && pnpm publish --access=public"
     },
     "peerDependencies": {
-        "stylelint": "^16.0.0"
+        "stylelint": "^16.6.1",
+        "stylelint-config-recommended-vue": "^1.5.0"
     },
-    "devDependencies": {
-        "stylelint": "^16.2.1",
-        "typescript": "^5.3.3"
+    "peerDependenciesMeta": {
+        "stylelint-config-recommended-vue": {
+            "optional": true
+        }
     },
     "dependencies": {
-        "stylelint-config-recommended-scss": "^14.0.0",
+        "stylelint-config-recommended-scss": "^14.1.0",
         "stylelint-order": "^6.0.4",
-        "stylelint-scss": "^6.1.0"
+        "stylelint-scss": "^6.10.1"
+    },
+    "devDependencies": {
+        "@dakefujo/prettier-config": "^1.1.0",
+        "@dakefujo/ts-config": "^1.0.0",
+        "prettier": "^3.4.2",
+        "stylelint": "^16.14.0",
+        "stylelint-config-recommended-vue": "^1.6.0",
+        "typescript": "^5.7.3",
+        "unbuild": "^3.3.1"
     }
 }

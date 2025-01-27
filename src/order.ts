@@ -1,7 +1,5 @@
-export = {
-    plugins: [
-        'stylelint-order'
-    ],
+export default {
+    plugins: ['stylelint-order'],
     rules: {
         'order/properties-order': [
             [
@@ -15,10 +13,7 @@ export = {
                 },
                 {
                     groupName: 'heading',
-                    properties: [
-                        'content',
-                        'quotes'
-                    ]
+                    properties: ['content', 'quotes']
                 },
                 {
                     groupName: 'box',
@@ -26,14 +21,22 @@ export = {
                         'display',
                         'line-clamp',
                         'box-orient',
+                        'box-sizing',
                         'visibility',
+                        'anchor-name',
+                        'anchor-scope',
                         'position',
+                        'position-anchor',
+                        'position-area',
+                        'position-visibility',
+                        'position-try',
+                        'position-try-order',
+                        'position-try-fallbacks',
                         'z-index',
                         'top',
                         'right',
                         'bottom',
                         'left',
-                        'box-sizing',
                         'grid',
                         'grid-template',
                         'grid-template-areas',
@@ -63,12 +66,15 @@ export = {
                         'align-items',
                         'align-self',
                         'justify-content',
+                        'justify-items',
+                        'justify-self',
                         'place-content',
                         'place-items',
                         'gap',
                         'row-gap',
                         'column-gap',
                         'order',
+                        'aspect-ratio',
                         'width',
                         'min-width',
                         'max-width',
@@ -137,13 +143,13 @@ export = {
                         'transition-duration',
                         'transition-timing-function',
                         'transition-delay',
+                        'translate',
+                        'scale',
+                        'rotate',
                         'transform',
                         'transform-box',
                         'transform-origin',
                         'transform-style',
-                        'translate',
-                        'scale',
-                        'rotate',
                         'backface-visibility',
                         'perspective',
                         'perspective-origin',
@@ -261,13 +267,13 @@ export = {
                         'vertical-align',
                         'white-space',
                         'word-spacing',
-                        'hyphens',
-                        'src'
+                        'hyphens'
                     ]
                 },
                 {
                     groupName: 'other',
                     properties: [
+                        'src',
                         'tab-size',
                         'counter-reset',
                         'counter-increment',
@@ -285,8 +291,8 @@ export = {
                 }
             ],
             {
-                'unspecified': 'bottom',
-                'severity': 'error'
+                unspecified: 'bottom',
+                severity: 'error'
             }
         ]
     }
